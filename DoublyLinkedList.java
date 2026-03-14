@@ -83,6 +83,8 @@ class DLinkedList{
     // print list
     void print(){
         Node temp=head;
+        if(head==null)
+            System.out.println("List is empty");
         while(temp!=null){
             System.out.print(temp.data+"->");
             temp=temp.next;
