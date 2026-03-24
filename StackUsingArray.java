@@ -53,10 +53,6 @@ public class StackUsingArray {
         st.pop();
         System.out.println(st.peek());
         System.out.println(st.size());
-        System.out.println(st.isFull());
-       
-
-        
-        
+        System.out.println(st.isFull());  
     }
 }
